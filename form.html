@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emloyee registration form</title>
+</head>
+<body>
+    <center>
+        <h3>Employee registration</h3>
+        <form>
+            <table border="5">
+                <tr>
+                    <th>Emplyee id:</th>
+                    <td><input type="text" id="EMPID" name="text"></td>
+                </tr>
+                <tr>
+                    <th>Emplyee Name:</th>
+                    <td><input type="text" id="EMPNAME" name="text"></td>
+                </tr>
+                <tr>
+                    <th>Password:</th>
+                    <td><input type="password" maxlength="5" id="EMPASS" name="text"></td>
+                </tr>
+                <tr>
+                    <th>Address:</th>
+                    <td><textarea rows="2" cols="25" id="EMPADD" name="texadd"></textarea></td>
+                </tr>
+                <tr>
+                    <th>Gender:</th>
+                    <td>
+                        Male:<input type="radio" value="MALE"  name="rd1" >
+                        Female:<input type="radio" value="FEMALE"   name="rd2" >
+                    </td>
+                </tr>
+                <tr>
+                    <th>City</th>
+                    <td>
+                        <select name="txtCity" id="EMPCITY" >
+                            <option>Indore</option>
+                            <option>Mumbai</option>
+                            <option selected>banglore</option>
+                            <option>Delhi</option>
+                            <option>Chennai</option>
+                            </select>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Qualification:</th>
+                    <td>
+                        
+                     diploma:<input type="checkbox" name="check1" value="diploma">
+                     UG:<input type="checkbox" name="check2" value="undergraduate">
+                    PG:<input type="checkbox" name="check1" value="postgraduate">
+                    </td>
+                </tr>
+                <tr>
+                <th>Dob:</th>
+                <td><input type="date" name="EMP1" id="EMP1"></td>
+                </tr>
+                <th>Time:</th>
+                <td><input type="time" name="EMP1" id="EMP3"></td>
+                </tr>
+
+            </table>
+        </form>
+    </center>
+    
+</body>
+</html>
